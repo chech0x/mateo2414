@@ -1,0 +1,13 @@
+# Compiled source #
+###################
+.class
+
+
+
+# Packages #
+############
+*.jar
+
+# target folder #
+#################
+target/
