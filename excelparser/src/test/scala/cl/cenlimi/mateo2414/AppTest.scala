@@ -12,6 +12,13 @@ class AppTest {
      */
     @Test
     def testApp():Unit={
+		println("Imprimiendo archivos en Test")
+		val files = new java.io.File(".").listFiles
+		for(file <- files) {
+			val filename = file.getName
+			//if(fileName.endsWith(".scala")) 
+				println(file)
+		}
         assertTrue( true )
     }
 }
